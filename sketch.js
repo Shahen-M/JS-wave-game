@@ -30,7 +30,7 @@ function resetGame() {
   lives = 3;
   levels = 1;
 
-  for (var i = 0; i < 1; i++) {
+  for (var i = 0; i < 5; i++) {
     enemies[i] = new BasicEnemy();
   }
 }
